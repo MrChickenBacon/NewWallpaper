@@ -10,6 +10,7 @@ namespace NewWallpaper
 {
     class Program
     {
+        //Place exe in C:\Users\*USERPROFILE*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
         [DllImport("User32", CharSet = CharSet.Auto)]
         public static extern int SystemParametersInfo(int uiAction, int uiParam,
